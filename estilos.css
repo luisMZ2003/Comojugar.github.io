@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-image: url(img/wall.webp);
+  }
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  
+  .back {
+    text-align: center;
+    padding: 10px;
+    background-image: url(img/banner2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .back img {
+    width: 32%;
+  }
+  div {
+    display: block;
+  }
+
+  .encabezado {
+    text-align: center;
+    background-color: rgb(8, 39, 97);
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.minecraft-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.jugar{
+    background-color: 	#E3DAC9;
+    border: 5px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.tuto {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jugar h1, p , ul{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.jugar h1{
+    font-size: 25px;
+}
+
+.jugar p{
+    font-size: 18px;
+}
+
+.jugar ul{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.centered-image {
+    margin-bottom: 10%;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 3px solid black;
+}
+@media only screen and (max-width: 991px) {
+    .back img {
+        width: 80%;
+    }
+
+    .centered-image {
+        width: 80%;
+        max-width: none;
+    }
+}
